@@ -1,0 +1,116 @@
+﻿<testsuites tests="6" failures="6" disabled="0" time="21.931000">
+  <testsuite tests="6" time="21.015635" errors="0" failures="6" skipped="0" timestamp="2023-03-27T08:06:45.4675573Z" name="WPFTestDemo.Test.">
+    <testcase name="FlakyTest_EV_T8969" assertions="1" time="1.053968" status="Failed" classname="WPFTestDemo.Test.MainScreenTest">
+      <failure message="TearDown : System.IO.FileNotFoundException : Could not load file or assembly 'System.Security.Permissions, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.">--TearDown
+   at RazorEngine.Roslyn.CSharp.RoslynCompilerServiceBase.CompileType(TypeContext context)
+   at RazorEngine.Templating.RazorEngineCore.CreateTemplateType(ITemplateSource razorTemplate, Type modelType)
+   at RazorEngine.Templating.RazorEngineCore.Compile(ITemplateKey key, Type modelType)
+   at RazorEngine.Templating.RazorEngineService.CompileAndCacheInternal(ITemplateKey key, Type modelType)
+   at RazorEngine.Templating.RazorEngineService.GetCompiledTemplate(ITemplateKey key, Type modelType, Boolean compileOnCacheMiss)
+   at RazorEngine.Templating.RazorEngineService.RunCompile(ITemplateKey key, TextWriter writer, Type modelType, Object model, DynamicViewBag viewBag)
+   at RazorEngine.Templating.DynamicWrapperService.RunCompile(ITemplateKey key, TextWriter writer, Type modelType, Object model, DynamicViewBag viewBag)
+   at RazorEngine.Templating.RazorEngineServiceExtensions.RunCompile(IRazorEngineService service, String name, TextWriter writer, Type modelType, Object model, DynamicViewBag viewBag)
+   at RazorEngine.Templating.RazorEngineServiceExtensions.&lt;&gt;c__DisplayClass16_0.&lt;RunCompile&gt;b__0(TextWriter writer)
+   at RazorEngine.Templating.RazorEngineServiceExtensions.WithWriter(Action`1 withWriter)
+   at RazorEngine.Templating.RazorEngineServiceExtensions.RunCompile(IRazorEngineService service, String name, Type modelType, Object model, DynamicViewBag viewBag)
+   at AventStack.ExtentReports.Reporter.ExtentHtmlReporter.Flush(ReportAggregates reportAggregates)
+   at AventStack.ExtentReports.Core.ReportObservable.&lt;&gt;c__DisplayClass59_0.&lt;NotifyReporters&gt;b__0(IExtentReporter x)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at AventStack.ExtentReports.Core.ReportObservable.NotifyReporters()
+   at AventStack.ExtentReports.Core.ReportObservable.Flush()
+   at AventStack.ExtentReports.ExtentReports.Flush()
+   at WPFTestDemo.Config.ReportsGenerationClass.AfterTest() in C:\Users\hung.tranmanh\source\repos\WPFTestDemo\WPFTestDemo\Config\ReportsGenerationClass.cs:line 71</failure>
+    </testcase>
+    <testcase name="VeriyUserShouldBeAbleToAddNewItem2_EV_T8969" assertions="0" time="0.000462" status="Failed" classname="WPFTestDemo.Test.MainScreenTest">
+      <failure message="No arguments were provided"></failure>
+    </testcase>
+  </testsuite>
+  <testsuite tests="1" time="0.879254" errors="0" failures="1" skipped="0" timestamp="2023-03-27T08:06:46.6674851Z" name="WPFTestDemo.Test.">
+    <testcase name="Ignore This Test" assertions="0" time="0.877917" status="Failed" classname="WPFTestDemo.Test.MainScreenTest">
+      <failure message="Ignore&#xD;&#xA;TearDown : System.IO.FileNotFoundException : Could not load file or assembly 'System.Security.Permissions, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.">   at WPFTestDemo.Test.MainScreenTest.Ignore_EV_T8969(String comment) in C:\Users\hung.tranmanh\source\repos\WPFTestDemo\WPFTestDemo\TestCases\MainScreenTest.cs:line 71
+
+--TearDown
+   at RazorEngine.Roslyn.CSharp.RoslynCompilerServiceBase.CompileType(TypeContext context)
+   at RazorEngine.Templating.RazorEngineCore.CreateTemplateType(ITemplateSource razorTemplate, Type modelType)
+   at RazorEngine.Templating.RazorEngineCore.Compile(ITemplateKey key, Type modelType)
+   at RazorEngine.Templating.RazorEngineService.CompileAndCacheInternal(ITemplateKey key, Type modelType)
+   at RazorEngine.Templating.RazorEngineService.GetCompiledTemplate(ITemplateKey key, Type modelType, Boolean compileOnCacheMiss)
+   at RazorEngine.Templating.RazorEngineService.RunCompile(ITemplateKey key, TextWriter writer, Type modelType, Object model, DynamicViewBag viewBag)
+   at RazorEngine.Templating.DynamicWrapperService.RunCompile(ITemplateKey key, TextWriter writer, Type modelType, Object model, DynamicViewBag viewBag)
+   at RazorEngine.Templating.RazorEngineServiceExtensions.RunCompile(IRazorEngineService service, String name, TextWriter writer, Type modelType, Object model, DynamicViewBag viewBag)
+   at RazorEngine.Templating.RazorEngineServiceExtensions.&lt;&gt;c__DisplayClass16_0.&lt;RunCompile&gt;b__0(TextWriter writer)
+   at RazorEngine.Templating.RazorEngineServiceExtensions.WithWriter(Action`1 withWriter)
+   at RazorEngine.Templating.RazorEngineServiceExtensions.RunCompile(IRazorEngineService service, String name, Type modelType, Object model, DynamicViewBag viewBag)
+   at AventStack.ExtentReports.Reporter.ExtentHtmlReporter.Flush(ReportAggregates reportAggregates)
+   at AventStack.ExtentReports.Core.ReportObservable.&lt;&gt;c__DisplayClass59_0.&lt;NotifyReporters&gt;b__0(IExtentReporter x)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at AventStack.ExtentReports.Core.ReportObservable.NotifyReporters()
+   at AventStack.ExtentReports.Core.ReportObservable.Flush()
+   at AventStack.ExtentReports.ExtentReports.Flush()
+   at WPFTestDemo.Config.ReportsGenerationClass.AfterTest() in C:\Users\hung.tranmanh\source\repos\WPFTestDemo\WPFTestDemo\Config\ReportsGenerationClass.cs:line 71</failure>
+      <system-out>Ignore
+</system-out>
+    </testcase>
+  </testsuite>
+  <testsuite tests="2" time="4.859262" errors="0" failures="2" skipped="0" timestamp="2023-03-27T08:06:47.5474056Z" name="WPFTestDemo.Test.">
+    <testcase name="IsPrime_ValuesLessThan2_ReturnFalse_EV_T8969(0)" assertions="1" time="3.966375" status="Failed" classname="WPFTestDemo.Test.MainScreenTest">
+      <failure message="  String lengths are both 1. Strings differ at index 0.&#xD;&#xA;  Expected: &quot;1&quot;&#xD;&#xA;  But was:  &quot;0&quot;&#xD;&#xA;  -----------^&#xD;&#xA;&#xD;&#xA;TearDown : System.IO.FileNotFoundException : Could not load file or assembly 'System.Drawing.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.">   at WPFTestDemo.Test.MainScreenTest.IsPrime_ValuesLessThan2_ReturnFalse_EV_T8969(Int32 value) in C:\Users\hung.tranmanh\source\repos\WPFTestDemo\WPFTestDemo\TestCases\MainScreenTest.cs:line 79
+
+--TearDown
+   at FlaUI.Core.Capturing.Capture.Rectangle(Rectangle bounds, CaptureSettings settings)
+   at FlaUI.Core.Capturing.Capture.Screen(Int32 screenIndex, CaptureSettings settings)
+   at WPFTestDemo.Config.ReportsGenerationClass.CaptureWindow(String screenshotName) in C:\Users\hung.tranmanh\source\repos\WPFTestDemo\WPFTestDemo\Config\ReportsGenerationClass.cs:line 82
+   at WPFTestDemo.Config.ReportsGenerationClass.AfterTest() in C:\Users\hung.tranmanh\source\repos\WPFTestDemo\WPFTestDemo\Config\ReportsGenerationClass.cs:line 56</failure>
+      <system-out>Failed to save screenshot to directory: , filename: C:\Users\hung.tranmanh\source\repos\WPFTestDemo\NUnitRunner\Screenshots\IsPrime_ValuesLessThan2_ReturnFalse_EV_T8969(0).png, Ex: System.IO.FileNotFoundException: Could not load file or assembly 'System.Drawing.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.Drawing.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+   at FlaUI.Core.Capturing.Capture.Rectangle(Rectangle bounds, CaptureSettings settings)
+   at FlaUI.Core.Capturing.Capture.Screen(Int32 screenIndex, CaptureSettings settings)
+   at WPFTestDemo.TestBase.TakeScreenshot(String screenshotName) in C:\Users\hung.tranmanh\source\repos\WPFTestDemo\WPFTestDemo\TestBase.cs:line 224
+</system-out>
+    </testcase>
+    <testcase name="IsPrime_ValuesLessThan2_ReturnFalse_EV_T8969(1)" assertions="1" time="0.892758" status="Failed" classname="WPFTestDemo.Test.MainScreenTest">
+      <failure message="TearDown : System.IO.FileNotFoundException : Could not load file or assembly 'System.Security.Permissions, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.">--TearDown
+   at RazorEngine.Roslyn.CSharp.RoslynCompilerServiceBase.CompileType(TypeContext context)
+   at RazorEngine.Templating.RazorEngineCore.CreateTemplateType(ITemplateSource razorTemplate, Type modelType)
+   at RazorEngine.Templating.RazorEngineCore.Compile(ITemplateKey key, Type modelType)
+   at RazorEngine.Templating.RazorEngineService.CompileAndCacheInternal(ITemplateKey key, Type modelType)
+   at RazorEngine.Templating.RazorEngineService.GetCompiledTemplate(ITemplateKey key, Type modelType, Boolean compileOnCacheMiss)
+   at RazorEngine.Templating.RazorEngineService.RunCompile(ITemplateKey key, TextWriter writer, Type modelType, Object model, DynamicViewBag viewBag)
+   at RazorEngine.Templating.DynamicWrapperService.RunCompile(ITemplateKey key, TextWriter writer, Type modelType, Object model, DynamicViewBag viewBag)
+   at RazorEngine.Templating.RazorEngineServiceExtensions.RunCompile(IRazorEngineService service, String name, TextWriter writer, Type modelType, Object model, DynamicViewBag viewBag)
+   at RazorEngine.Templating.RazorEngineServiceExtensions.&lt;&gt;c__DisplayClass16_0.&lt;RunCompile&gt;b__0(TextWriter writer)
+   at RazorEngine.Templating.RazorEngineServiceExtensions.WithWriter(Action`1 withWriter)
+   at RazorEngine.Templating.RazorEngineServiceExtensions.RunCompile(IRazorEngineService service, String name, Type modelType, Object model, DynamicViewBag viewBag)
+   at AventStack.ExtentReports.Reporter.ExtentHtmlReporter.Flush(ReportAggregates reportAggregates)
+   at AventStack.ExtentReports.Core.ReportObservable.&lt;&gt;c__DisplayClass59_0.&lt;NotifyReporters&gt;b__0(IExtentReporter x)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at AventStack.ExtentReports.Core.ReportObservable.NotifyReporters()
+   at AventStack.ExtentReports.Core.ReportObservable.Flush()
+   at AventStack.ExtentReports.ExtentReports.Flush()
+   at WPFTestDemo.Config.ReportsGenerationClass.AfterTest() in C:\Users\hung.tranmanh\source\repos\WPFTestDemo\WPFTestDemo\Config\ReportsGenerationClass.cs:line 71</failure>
+    </testcase>
+  </testsuite>
+  <testsuite tests="1" time="14.074607" errors="0" failures="1" skipped="0" timestamp="2023-03-27T08:06:52.4066944Z" name="WPFTestDemo.Test.">
+    <testcase name="Veriy User Should Be Able To Add New Item" assertions="1" time="14.074549" status="Failed" classname="WPFTestDemo.Test.MainScreenTest">
+      <failure message="TearDown : System.IO.FileNotFoundException : Could not load file or assembly 'System.Security.Permissions, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.">--TearDown
+   at RazorEngine.Roslyn.CSharp.RoslynCompilerServiceBase.CompileType(TypeContext context)
+   at RazorEngine.Templating.RazorEngineCore.CreateTemplateType(ITemplateSource razorTemplate, Type modelType)
+   at RazorEngine.Templating.RazorEngineCore.Compile(ITemplateKey key, Type modelType)
+   at RazorEngine.Templating.RazorEngineService.CompileAndCacheInternal(ITemplateKey key, Type modelType)
+   at RazorEngine.Templating.RazorEngineService.GetCompiledTemplate(ITemplateKey key, Type modelType, Boolean compileOnCacheMiss)
+   at RazorEngine.Templating.RazorEngineService.RunCompile(ITemplateKey key, TextWriter writer, Type modelType, Object model, DynamicViewBag viewBag)
+   at RazorEngine.Templating.DynamicWrapperService.RunCompile(ITemplateKey key, TextWriter writer, Type modelType, Object model, DynamicViewBag viewBag)
+   at RazorEngine.Templating.RazorEngineServiceExtensions.RunCompile(IRazorEngineService service, String name, TextWriter writer, Type modelType, Object model, DynamicViewBag viewBag)
+   at RazorEngine.Templating.RazorEngineServiceExtensions.&lt;&gt;c__DisplayClass16_0.&lt;RunCompile&gt;b__0(TextWriter writer)
+   at RazorEngine.Templating.RazorEngineServiceExtensions.WithWriter(Action`1 withWriter)
+   at RazorEngine.Templating.RazorEngineServiceExtensions.RunCompile(IRazorEngineService service, String name, Type modelType, Object model, DynamicViewBag viewBag)
+   at AventStack.ExtentReports.Reporter.ExtentHtmlReporter.Flush(ReportAggregates reportAggregates)
+   at AventStack.ExtentReports.Core.ReportObservable.&lt;&gt;c__DisplayClass59_0.&lt;NotifyReporters&gt;b__0(IExtentReporter x)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at AventStack.ExtentReports.Core.ReportObservable.NotifyReporters()
+   at AventStack.ExtentReports.Core.ReportObservable.Flush()
+   at AventStack.ExtentReports.ExtentReports.Flush()
+   at WPFTestDemo.Config.ReportsGenerationClass.AfterTest() in C:\Users\hung.tranmanh\source\repos\WPFTestDemo\WPFTestDemo\Config\ReportsGenerationClass.cs:line 71</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

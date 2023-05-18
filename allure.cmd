@@ -1,0 +1,1 @@
+"C:\workspace\automation_demo\allure-2.22.0\bin\allure.bat" serve C:\workspace\automation_demo\WPFTestDemo\bin\Debug\net6.0-windows\allure-results

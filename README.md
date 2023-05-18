@@ -29,4 +29,4 @@ This project is integrated with Jenkins for continuous integration and continuou
 
 ## Reporting
 
-This project is integrated with Zephyr Scale as Test Management System.
+This project is integrated with Zephyr Scale as Test Management Tool.

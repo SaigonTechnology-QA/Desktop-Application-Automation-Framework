@@ -1,0 +1,6 @@
+﻿desc|price|date|expectedName
+Backbag|-12.00|5/25/2023|Please, enter a valid price
+Wallet|12.00|3/26/2023|Please, enter a valid date
+Wallet|17.00|1/26/2023|Please, enter a valid date
+Wallet|18.00|2/26/2023|Please, enter a valid date
+Backbag|-18.00|5/26/2023|Please, enter a valid price.

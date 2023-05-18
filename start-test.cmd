@@ -1,0 +1,1 @@
+cd WPFTestDemo && "C:\workspace\automation_demo\NUnit.Console-3.16.2\bin\nunit3-console.exe" "C:\workspace\automation_demo\WPFTestDemo\bin\Debug\net6.0-windows\DesktopAppAuto.dll" --where "cat==Sanity"
