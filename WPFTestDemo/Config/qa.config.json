@@ -5,7 +5,7 @@
     "SCREENSHOT_PATH": "C:\\Users\\huong.nguyenthi\\winappDemo\\automation_demo\\WPFTestDemo",
     "ZEPHYR_ENABLE": true,
     "ZEPHYR_URL": "https://api.zephyrscale.smartbear.com/v2/",
-    "ZEPHYR_TOKEN": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb250ZXh0Ijp7ImJhc2VVcmwiOiJodHRwczovL2h1bmd0cmFubWFuaC5hdGxhc3NpYW4ubmV0IiwidXNlciI6eyJhY2NvdW50SWQiOiI1YmY2ZGE3OTcwZTkwOTRjZWJiMTA3NjQifX0sImlzcyI6ImNvbS5rYW5vYWgudGVzdC1tYW5hZ2VyIiwic3ViIjoiOTZhMjE2OWUtZGY4Zi0zMWYzLWFlYzMtZDQ4NWE3YzQwNDBiIiwiZXhwIjoxNzE0MTA0MDYxLCJpYXQiOjE2ODI1NjgwNjF9.ZwB0sEn__Q7B8r4EeTcglaPq_5ffkFH-5fy_L-vvDGs",
+    "ZEPHYR_TOKEN": "Bearer <<TOKEN>>",
     "ZEPHYR_CYCLE": "DES-R1",
     "ZEPHYR_PROJECT": "DES"
 }
