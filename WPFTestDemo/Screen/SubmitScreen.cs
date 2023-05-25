@@ -18,6 +18,9 @@ namespace WPFTestDemo.Screen
         [AllureStep("Enter description, price and date for new product")]
         public void enterItemInformation(string desc, string price, string date)
         {
+            //step in reportportal.io
+            ReportPortal.Shared.Context.Current.Log.Trace("Enter description, price and date for new product");
+
             Description.Text = desc;
             Thread.Sleep(300); // 300 milliseconds = 0.3 second
             Price.Text = price;
@@ -29,12 +32,18 @@ namespace WPFTestDemo.Screen
         [AllureStep("Click submit new product")]
         public void submitItem()
         {
+            //step in reportportal.io
+            ReportPortal.Shared.Context.Current.Log.Trace("Click submit new product");
+
             Submit.Click();
         }
 
         [AllureStep("Verify new product information is matched with input data")]
         public void verifyTextBlock(string expectedName, int timeOut)
         {
+            //step in reportportal.io
+            ReportPortal.Shared.Context.Current.Log.Trace("Verify new product information is matched with input data");
+
             WaitForElementVisible(ErrorTextBlock, timeOut);
             Assert.AreEqual(ErrorTextBlock.Name.ToString(), expectedName);
         }
