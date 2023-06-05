@@ -40,7 +40,7 @@ namespace WPFTestDemo.Page
         }
 
         [AllureStep("Verify new product name is present on screen")]
-        public bool isItemPresent(string name, string expectedName)
+        public bool isItemPresent(string name)
         {
             //step in reportportal.io
             ReportPortal.Shared.Context.Current.Log.Trace("Verify new product name is present on screen");
