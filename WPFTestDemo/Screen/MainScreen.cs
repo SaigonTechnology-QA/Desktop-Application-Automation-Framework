@@ -36,7 +36,7 @@ namespace WPFTestDemo.Page
             Assert.AreEqual(expected.Name.ToString(), expectedName);
 
             // Assert that the item is added successfully
-            Assert.True(isItemPresent(name, expectedName));
+            Assert.True(isItemPresent(name));
         }
 
         [AllureStep("Verify new product name is present on screen")]
